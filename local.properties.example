@@ -1,0 +1,17 @@
+# This file is intentionally checked in to version control.
+# It contains local properties used for development and testing.
+# Each developer should create their own local.properties file based on this template.
+
+# SDK Location - Path to your Android SDK installation
+# Uncomment and set this if gradle doesn't auto-detect your SDK
+# sdk.dir=/Users/yourname/Library/Android/sdk
+
+# Keystore configuration for release builds
+# IMPORTANT: Do NOT commit local.properties with actual keystore passwords!
+# Use environment variables or GitHub Secrets instead.
+KEYSTORE_PATH=./my-upload-key.jks
+STORE_PASSWORD=your_store_password_here
+KEY_PASSWORD=your_key_password_here
+
+# Additional gradle properties can be set here
+org.gradle.jvmargs=-Xmx4096m
